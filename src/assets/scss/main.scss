@@ -1,0 +1,78 @@
+//unit
+@import "utils/fonts";
+@import "utils/reset";
+@import "utils/variables";
+@import "utils/libs";
+//section
+@import "sections/section-color";
+
+
+
+html {
+    overflow-x: hidden;
+
+    &.is-overlay {
+        overflow: hidden;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    //-webkit-text-size-adjust: 100%;
+    //font-variant-ligatures: none;
+    //-webkit-font-variant-ligatures: none;
+    //text-rendering: optimizeLegibility;
+    //-moz-osx-font-smoothing: grayscale;
+    //font-smoothing: antialiased;
+    //-webkit-font-smoothing: antialiased;
+    //text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+    }
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1065px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-alt {
+    width: 100%;
+    max-width: 1410px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
