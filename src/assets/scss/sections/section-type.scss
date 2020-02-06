@@ -2,6 +2,18 @@ section-type {
   display: flex;
   .section-color {
     margin-top: 67px;
+    .wrapper {
+      display: flex;
+    }
+    h1 {
+      font-family: $font-family-base;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 19px;   
+      display: block;
+      margin: auto 40px 35px;
+      color: $primary-color;
+    }
     .section-color__black {
       margin-bottom: 20px;
       width: 70px;
