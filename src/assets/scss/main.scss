@@ -5,6 +5,7 @@
 @import "utils/libs";
 //section
 @import "sections/section-color";
+@import "sections/section-type";
 
 
 
@@ -36,6 +37,7 @@ body {
     //font-smoothing: antialiased;
     //-webkit-font-smoothing: antialiased;
     //text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    $color-body:rgba(31, 32, 65, 0.75);
 }
 
 *,
