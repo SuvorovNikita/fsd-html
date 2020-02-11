@@ -2,35 +2,42 @@ section-type {
   display: flex;
   justify-content: space-between;
   padding-bottom: 145px;
+
   .section-color {
     margin-top: 67px;
+
     .wrapper {
       display: flex;
     }
+
     h1 {
       width: 160px;
       font-family: $font-family-base;
       font-style: normal;
       font-weight: bold;
-      font-size: 19px;   
+      font-size: 19px;
       margin: auto 40px 35px;
       color: $primary-color;
+
       span {
-        font-weight: 100;    
+        font-weight: 100;
       }
     }
+
     h2 {
       width: 139px;
       font-family: $font-family-base;
       font-style: normal;
       font-weight: bold;
-      font-size: 19px;   
+      font-size: 19px;
       margin: auto 40px 35px;
       color: $primary-color;
+
       span {
-        font-weight: 100;    
+        font-weight: 100;
       }
     }
+
     .section-color__black {
       margin-bottom: 20px;
       width: 70px;
@@ -38,6 +45,7 @@ section-type {
       background: $primary-color;
       border-radius: 6px;
     }
+
     .section-color__gray {
       margin-bottom: 20px;
       width: 70px;
@@ -45,6 +53,7 @@ section-type {
       background: $color-gray;
       border-radius: 6px;
     }
+
     .section-color__gray-alt {
       margin-bottom: 20px;
       width: 70px;
@@ -53,6 +62,7 @@ section-type {
       border-radius: 6px;
       opacity: 0.5;
     }
+
     .section-color__silver {
       margin-bottom: 20px;
       width: 70px;
@@ -60,6 +70,7 @@ section-type {
       background: $color-silver;
       border-radius: 6px;
     }
+
     .section-color__white {
       margin-bottom: 20px;
       width: 70px;
@@ -67,6 +78,7 @@ section-type {
       background: $color-white;
       border-radius: 6px;
     }
+
     .section-color__purple {
       margin-bottom: 20px;
       width: 70px;
@@ -74,6 +86,7 @@ section-type {
       background: $color-purple;
       border-radius: 6px;
     }
+
     .section-color__green {
       margin-bottom: 20px;
       width: 70px;
@@ -82,91 +95,99 @@ section-type {
       border-radius: 6px;
     }
   }
+
   .section-type {
     margin-top: 67px;
 
     .wrapper {
       margin-bottom: 50px;
-      display: flex;  
-    
-      .h1 {   
+      display: flex;
+
+      .h1 {
         margin-right: 30px;
-        font-family:$font-family-alt;
+        font-family: $font-family-alt;
         font-style: normal;
         font-weight: normal;
-        font-size: 24px;    
+        font-size: 24px;
         color: $color-silver;
-        text-transform: uppercase;      
+        text-transform: uppercase;
       }
-      .text {  
-    
-        width: 413px;     
+
+      .text {
+
+        width: 413px;
         font-family: $font-family-base;
         font-style: normal;
         font-weight: bold;
-        font-size: 24px;         
+        font-size: 24px;
         color: $primary-color;
-     
+
       }
-      .h2 { 
+
+      .h2 {
         margin-right: 30px;
-        font-family:$font-family-alt;
+        font-family: $font-family-alt;
         font-style: normal;
         font-weight: normal;
-        font-size: 19px;    
+        font-size: 19px;
         color: $color-silver;
         text-transform: uppercase;
-      
+
       }
-      .text-alt {    
+
+      .text-alt {
         margin-left: 5px;
-        width: 354px;     
+        width: 354px;
         font-family: $font-family-base;
         font-style: normal;
         font-weight: bold;
-        font-size: 19px;         
+        font-size: 19px;
         color: $primary-color;
-     
+
       }
-      .h3 { 
+
+      .h3 {
         margin-right: 30px;
-        font-family:$font-family-alt;
+        font-family: $font-family-alt;
         font-style: normal;
         font-weight: normal;
-        font-size: 12px;    
+        font-size: 12px;
         color: $color-silver;
         text-transform: uppercase;
-      
+
       }
-      .text-2 {    
-     margin-left: 14px;
-        width: 413px;     
-        font-family:$font-family-base;
+
+      .text-2 {
+        margin-left: 14px;
+        width: 413px;
+        font-family: $font-family-alt;
         font-style: normal;
         font-weight: bold;
         font-size: 12px;
-        line-height: 15px;  
+        line-height: 15px;
         text-transform: uppercase;
-     
+
       }
-      .h4 { 
+
+      .h4 {
         margin-right: 18px;
-        font-family:$font-family-alt;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;    
-        color: $color-silver;
-        text-transform: uppercase;
-      
-      }
-      .body {    
-        width: 282px;     
-        font-family:$font-family-base;
+        font-family: $font-family-alt;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
-        line-height: 24px;   
-        color: $color-silver;       
+        color: $color-silver;
+        text-transform: uppercase;
+
+      }
+
+      .body {
+        width: 301px;
+        font-family: $font-family-alt;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: $color-silver;
       }
     }
   }

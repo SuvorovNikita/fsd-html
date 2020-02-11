@@ -1,0 +1,33 @@
+.form-field {
+    label {
+        cursor: pointer;
+        user-select: none;
+
+        &.style-d {
+            font-family: $font-family-alt;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            &-alt {
+                color: $color-gray-alt;
+                font-family: $font-family-alt;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        display: block;
+        position: relative;
+        appearance: none;
+    }
+
+
+}
