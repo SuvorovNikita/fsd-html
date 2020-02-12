@@ -90,7 +90,9 @@ img {
  }
 
  .col {  
-    flex: 3; 
-    padding: 0 15px;
+     display: flex;
+     flex-wrap: wrap;
+     flex: 3; 
+     padding: 0 15px;
  }
 
