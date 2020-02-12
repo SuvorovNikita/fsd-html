@@ -1,0 +1,48 @@
+.dropdown {
+  position: relative;
+  background: $color-body;
+  border: 1px solid $color-silver;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 320px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  cursor: pointer; 
+  .after {
+    font-family: $font-family-alt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: $color-gray;
+    padding-left: 15px;
+  }
+  .beforce {
+      img {
+        padding-right: 15px;
+      }    
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: $color-body;
+    text-align: right;
+    top: 42px;
+  
+  }
+  .item {
+    border: 1px solid $color-silver;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-alt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: $color-gray;
+  }
+}
+.dropdown:hover .dropdown-content {
+  display: block;  
+}
