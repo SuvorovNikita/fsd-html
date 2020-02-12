@@ -7,23 +7,31 @@ block content
         img(src="assets/img/logo.png" alt="")
     .container
       .row
-        .col 
-          form(action="" method="method").form-field
-            label.style-d(for="") Text Field                
-            label.style-d-alt(for="email") Default 
-              input.style-d(
+        .col
+          form.form-field
+            .wrapper
+              label.style-d Text Field
+              label.style-d-alt Default
+            input.style-d( 
                 type='email'
-                name='email'
-                placeholder='Email' 
-)
+                name='email' 
+                placeholder='Email'           
+              )
+            .wrapper
+              label.style-d Text Field
+              label.style-d-alt Hover / Focus
+            input.style-alt( 
+                type='text'
+                name='text' 
+                placeholder='This is pretty awesome'           
+              )
 
-        .col 
-          form(action="" method="method").form-field
-            label.style-d(for="") Checkbox Buttons
 
-        .col 
-          form(action="" method="method").form-field
-            label.style-d(for="") Range Slider
+
+
+
+
+
 
 
 
