@@ -21,7 +21,8 @@ module.exports = {
   },
 
   entry: {
-    app: PATHS.src
+    app: PATHS.src,
+    
   },
 
  output: {
