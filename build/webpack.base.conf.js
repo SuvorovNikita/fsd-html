@@ -11,7 +11,7 @@ const PATHS = {
   assets: 'assets/'
 }
 
-const PAGES_DIR = `${PATHS.src}/pages/index/`
+const PAGES_DIR = `${PATHS.src}/pages/`
 const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.pug'))
 
 module.exports = {
@@ -97,11 +97,7 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: `${PATHS.assets}css/[name].css`,
-    }),
-    // new HtmlWebpackPlugin ({
-    //   template: `${PATHS.src}/index.html`,
-    //   filename: './index.html'
-    // }),
+    }), 
     new CopyWebpackPlugin ([
       { from:`${PATHS.src}/${PATHS.assets}img`, to:`${PATHS.assets}img` },
       { from:`${PATHS.src}/${PATHS.assets}fonts`, to:`${PATHS.assets}fonts` },
@@ -110,6 +106,16 @@ module.exports = {
     ...PAGES.map(page => new HtmlWebpackPlugin({
       template: `${PAGES_DIR}/${page}`,
       filename: `./${page.replace(/\.pug/,'.html')}`
-    }))
+    })),    
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/index/index.pug`,
+      filename: 'index.html',
+      inject: true
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/colors-type/colors-type.pug`,
+      filename: './pages/colors-type/colors-type.html',
+      inject: true
+    }),
   ],
 }
