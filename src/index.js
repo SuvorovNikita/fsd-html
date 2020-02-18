@@ -1,8 +1,12 @@
 import './js/common'
 import './assets/css/main.css'
 import './assets/scss/main.scss'
-import './block/colors-and-fonts/colors-and-fonts.scss'
-import './block/header-top/header-top.scss'
-import './assets/scss/colors.scss'
+import  './block/header-top/header-top.scss'
 
 
+
+function importAll(resolve) {
+    resolve.keys().forEach(resolve);
+  }
+  
+  importAll(require.context('../src/', true, /\.js$|\.scss$/));
